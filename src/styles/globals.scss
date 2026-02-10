@@ -1,0 +1,15 @@
+@layer theme, base, components, utilities;
+@import "tailwindcss";
+
+@import "theme";
+@import "normalize";
+@import "layout";
+
+body {
+  background-color: #fff;
+  color: #000;
+}
+
+* {
+  box-sizing: border-box;
+}

@@ -28,15 +28,45 @@
   font-display: swap;
 }
 
+@font-face {
+  font-family: "Pretendard";
+  src:
+    url("/fonts/Pretendard-Bold.woff2") format("woff2"),
+    url("/fonts/Pretendard-Bold.woff") format("woff");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Pretendard";
+  src:
+    url("/fonts/Pretendard-ExtraBold.woff2") format("woff2"),
+    url("/fonts/Pretendard-ExtraBold.woff") format("woff");
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Pretendard";
+  src:
+    url("/fonts/Pretendard-Black.woff2") format("woff2"),
+    url("/fonts/Pretendard-Black.woff") format("woff");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
 @layer base {
   :root {
     --background: #ffffff;
-    --foreground: #222;
+    --foreground: #000;
   }
 
   body {
     background: #fff;
-    color: #222;
+    color: #000;
     line-height: 1;
     font-family: Pretendard, "Malgun Gothic", sans-serif;
   }
